@@ -1,0 +1,20 @@
+{
+    "name": "courier/email",
+    "description": "Send scheduled and recurring email notifications with php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Courier\\Courier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "recipient@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    "courier/courier": "dev-main"
+}
+}
